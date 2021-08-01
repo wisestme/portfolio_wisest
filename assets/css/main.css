@@ -130,3 +130,12 @@ img {
   display: grid;
   gap: 1.5;
 }
+
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-index);
+  background-color: var(--body-color);
+}
