@@ -9,6 +9,8 @@ const navMenu = document.getElementById('nav-menu'),
   {
     navToggle.addEventListener('click', () => {
       navMenu.classList.add('show-menu');
+  navToggle.classList.add('hide-icon');
+
     })
   }
 
@@ -18,5 +20,8 @@ if(navClose)
 {
   navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu');
-  })
+  navToggle.classList.remove('hide-icon');
+
+  });
+
 }

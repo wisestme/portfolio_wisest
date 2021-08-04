@@ -218,3 +218,8 @@ img {
 .show-menu {
   bottom: 0;
 }
+
+.hide-icon {
+  position: absolute;
+  bottom: -100px;
+}
