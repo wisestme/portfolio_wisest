@@ -30,4 +30,5 @@ const navLink = document.querySelectorAll('.nav__link');
 
 navLink.forEach(n => n.addEventListener('click', function (){
   navMenu.classList.remove('show-menu');
+  navToggle.classList.remove('hide-icon');
 }))
