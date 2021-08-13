@@ -274,3 +274,16 @@ img {
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
+
+.home__description {
+  margin-bottom: var(--mb-2);
+}
+
+.home__scroll-button {
+  color: var(--first-color);
+  transition: 0.3s;
+}
+
+.home__scroll-button:hover {
+  transform: translateY(0.25rem);
+}
