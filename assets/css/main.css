@@ -251,13 +251,11 @@ img {
 }
 
 .home__blob {
+  display: flex;
   width: 200px;
   fill: var(--first-color);
 }
 
 .home__blob-img {
-  width: 170px;
-  position: relative;
-  display: block;
-  text-align : center; 
+  width: 50%;
 }

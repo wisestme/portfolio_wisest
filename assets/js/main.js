@@ -32,3 +32,10 @@ navLink.forEach(n => n.addEventListener('click', function (){
   navMenu.classList.remove('show-menu');
   navToggle.classList.remove('hide-icon');
 }))
+
+// var svgImage = document.querySelectorAll('.home__blob-img');
+
+// Array.prototype.forEach.call(svgImage, function(el, i){
+//   var xOffset = '-' + ((Math.floor(el.getBoundingClientRect().width)) - 100) / 2
+//   el.setAttribute('x', xOffset);
+// });
