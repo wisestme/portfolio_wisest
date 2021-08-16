@@ -371,3 +371,116 @@ img {
 }
 
 /* Skills */
+.skills__container {
+  row-gap: 0;
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__icon {
+  margin: var(--mb-0-75);
+}
+
+.skills__title {
+  font-size: var(--h3-font-size);
+}
+
+.skills__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
+.skill__title {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--mb-0-5) 0;
+}
+
+.skill__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.skill__bar,
+.skill__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skill__bar {
+  background-color: var(--first-color-lighter);
+}
+
+.skill__percentage {
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skills__html {
+  width: 90%;
+}
+
+.skills__css {
+  width: 90%;
+}
+
+.skills__javascript {
+  width: 60%;
+}
+
+.skills__vue {
+  width: 10%;
+}
+
+.skills__illustrator {
+  width: 50%;
+}
+
+.skills__photoshop {
+  width: 50%;
+}
+
+.skills__figma {
+  width: 30%;
+}
+
+.skills__mix {
+  width: 75%;
+}
+
+.skills__hardware {
+  width: 80%;
+}
+
+.skills__tech-support {
+  width: 90%;
+}
+
+.skills__customer {
+  width: 90%;
+}
+
+.skills__community {
+  width: 75%;
+}
