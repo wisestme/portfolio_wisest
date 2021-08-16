@@ -330,3 +330,11 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+/* About */
+.about__img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
