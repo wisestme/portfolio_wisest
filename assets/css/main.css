@@ -359,6 +359,11 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.about__buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .about__info-title,
 .about__info-name {
   display: block;
